@@ -8,3 +8,47 @@ a{
     color: black; /* altera a cor de todos os links das páginas */
 }
 
+/*Topo*/
+header {
+  padding: 3vw 10vw 3vw 10vw;
+}
+header nav { 
+  display: flex;
+  justify-content: space-between;
+}
+header nav h1{
+font-size: 1.5rem;
+font-weight: bold;
+
+}
+header nav ul{
+display: flex;
+}
+header nav ul li{
+ 
+  margin: 0px 10px;
+  align-items: center;
+}
+/*corpo*/
+header nav ul li.home a{
+color: #FB2E86;
+}
+section.banner{
+  display: flex;
+  background-color: #f2f0ff;
+  padding: 3VW 10VW;
+}
+section.banner div p.destaque{
+color: #FB2E86;
+font-weight: bold;
+font-size: 0.7rem;
+}
+section.banner div h2{
+ font-weight: bold;
+ color: #8AB989;
+
+}
+section.banner div p{
+   font-size: 0.7rem;
+   background-color: 
+}
